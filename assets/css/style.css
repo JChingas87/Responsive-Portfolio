@@ -2,8 +2,6 @@
 	box-sizing: border-box;
 }
 
-
-
 body {
 	background-image: url("file:///Users/JChingas87/Desktop/Bootcamp/homework/homework1/Basic-Portfolio/assets/images/concrete-texture/concrete-texture.png");
 	z-index: -2;
@@ -60,10 +58,24 @@ body {
 	margin-left: 175px;
 	background-color: #ffffff;
 	margin-top: 30px;
-	position: relative;
+	float: left;
 	color: #777777;
 	border: solid 1px;
 	border-color: #dddddd;
+	margin-bottom: 20px;
+}
+
+.about-me-index {
+	width: 550px;
+	height: 420px;
+	margin-left: 175px;
+	background-color: #ffffff;
+	margin-top: 30px;
+	float: left;
+	color: #777777;
+	border: solid 1px;
+	border-color: #dddddd;
+	margin-bottom: 20px;
 }
 
 .about-me-pic {
@@ -100,8 +112,7 @@ body {
 	background-color: #666666;
 	width: 100%;
 	height: 30px;
-	margin-top: 275px;
-	position: static;
+	position: relative;
 	text-align: center;
 	color: #B9B9B9;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -111,18 +122,41 @@ body {
 	padding-top: 25px;
 	padding-bottom: 40px;
 	padding-right: 50px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
+	margin-top: 655px;
+	clear: both;
 }
 
-.connect {
+
+
+.connect-index {
 	background-color: #ffffff;
-	position: relative;
+	float: left;
 	width: 240px;
 	height: 175px;
 	margin-left: 760px;
-	margin-top: -396px;
+	margin-top: -440px;
+	border: solid 1px;
+	border-color: #dddddd;
+}
+
+.connect-port {
+	background-color: #ffffff;
+	float: left;
+	width: 240px;
+	height: 175px;
+	margin-left: 760px;
+	margin-top: -390px;
+	border: solid 1px;
+	border-color: #dddddd;
+}
+
+.connect-contact {
+	background-color: #ffffff;
+	float: left;
+	width: 240px;
+	height: 175px;
+	margin-left: 760px;
+	margin-top: -469px;
 	border: solid 1px;
 	border-color: #dddddd;
 }
@@ -138,7 +172,7 @@ body {
 .linkedin {
 	width: 65px;
 	height: 65px;
-	align: center;
+	text-align: center;
 }
 
 .stack {
@@ -194,6 +228,20 @@ a {
 	padding-top: 20px;
 	padding-left: 25px;
 	padding-right: 25px;
+	height: 375px;
+}
+
+.message-button {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	margin-top: 20px;
 }
 
 .name {
@@ -240,7 +288,35 @@ a {
 	float: left;
 	border-color: #F3F3F3;
 	border: ridge 1px;
-	z-index: -1;
+}
+
+.chess-pic {
+	margin-top: 20px;
+}
+
+.fitness-pic {
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+.meditation-pic {
+	margin-top: -120px;
+	margin-left: 370px;
+}
+
+.yoga-pic {
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.guitar-pic {
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+.jiujitsu-pic {
+	margin-top: -115px;
+	margin-left: 369px;
 }
 
 .chess-pic,
@@ -260,15 +336,17 @@ a {
 	height: 26px;
 	color: white;
 	text-align: center;
-	position: relative;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding-top: 5px;
+	z-index: 1px;
+	position: absolute;
 
 }
 
 .chess-para {
 	margin-left: 26px;
 	margin-top: 105px;
+
 }
 
 .fitness-para {
@@ -277,7 +355,7 @@ a {
 }
 
 .meditation-para {
-	margin-left: 370px;
+	margin-left: 371px;
 	margin-top: 105px;
 }
 
@@ -297,55 +375,125 @@ a {
 }
 
 .portfolio {
-	width: 45%;
+	width: 545px;
 	height: 390px;
 	margin-left: 175px;
 	background-color: #ffffff;
-	margin-top: 105px;
-	position: relative;
+	margin-top: 30px;
 	color: #777777;
 	border: solid 1px;
 	border-color: #dddddd;
+	float: left;
 }
 
+
 @media screen and (max-width: 980px) {
-	
 	#container {
-	  width: 980px;
+		width: 980px;
 	}
 
+	
 	.about-me {
 		width: 325px;
-		height: 850px;
+		height: 500px;
+		margin-bottom: 20px;
 	}
 
+	.about-me-index {
+		width: 325px;
+		height: 850px;
+		margin-bottom: 20px;
+	}
 	.about-me-pic {
 		width: 275px;
 		height: 325px;
 	}
 
-	.connect {
-		margin-left: 525px;
-		margin-top: -839px;
+
+	.connect-index {
+		margin-left: 575px;
+		margin-top: -870px;
+		margin-bottom: 20px;
+		width: 240px;
+		height: 175px;
+	}
+
+	.connect-port {
+		margin-left: 575px;
+		margin-top: -520px;
+		margin-bottom: 20px;
+		width: 240px;
+		height: 175px;
+	}
+
+	.connect-contact {
+		margin-left: 575px;
+		margin-top: -520px;
 		width: 240px;
 		height: 175px;
 	}
 
 	.links {
-		margin-left: 525px;
+		margin-left: 575px;
+	}
+	.portfolio {
+		width: 370px;
+		height: 520px;
 	}
 
+	.jiujitsu-para {
+		margin-left: 198px;
+		margin-top: 395px;
+	}
+
+	.meditation-para {
+		margin-left: 26px;
+		margin-top: 395px;
+	}
+
+	.jiujitsu-pic {
+		margin-top: -120px;
+		margin-left: 197px;
+	}
+
+	.meditation-pic {
+		margin-top: 170px;
+		margin-left: 25px;
+	}
+
+	.guitar-pic {
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+	
+	.yoga-pic {
+		margin-left: -147px;
+		margin-top: 25px;
+	}
+	
 }
 
 @media screen and (max-width: 768px) {
-	
 	#container {
-	  width: 768px;
+		width: 768px;
 	}
-
 	.about-me {
 		width: 725px;
 		height: 460px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	.about-me-index {
+		width: 725px;
+		height: 460px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+
+	.portfolio {
+		width: 720px;
+		height: 520px;
 		margin-left: 20px;
 	}
 
@@ -353,10 +501,26 @@ a {
 		width: 275px;
 		height: 325px;
 	}
-
-	.connect {
+	.connect-index {
 		margin-left: 20px;
 		margin-top: 30px;
+		width: 725px;
+		height: 175px;
+		text-align: left;
+	}
+
+	.connect-port {
+		margin-left: 20px;
+		margin-top: 30px;
+		width: 725px;
+		height: 175px;
+		text-align: left;
+	}
+
+	.connect-contact {
+		margin-left: 20px;
+		margin-top: 30px;
+		margin-bottom: 20px;
 		width: 725px;
 		height: 175px;
 		text-align: left;
@@ -365,44 +529,190 @@ a {
 	h3 {
 		padding-left: 0px;
 		text-align: left;
-	}	
-
+	}
 	.github {
 		margin-left: 20px;
 	}
-
 	.links {
 		margin-left: 490px;
 	}
-
 	.joe-h1 {
 		margin-left: 20px;
 	}
 
-}
-
-
-@media screen and (max-width: 640px) {
+	.chess-para,
+	.fitness-para,
+	.meditation-para,
+	.yoga-para,
+	.guitar-para,
+	.jiujitsu-para {
+		background-color: #4aaaa5;
+		width: 203px;
+		height: 40px;
+		color: white;
+		text-align: center;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		padding-top: 13px;
+		z-index: 1px;
+		position: absolute;
 	
-	#container {
-	  width: 640px;
 	}
 
+	.chess-para {
+		margin-top: 140px;
+	}
+
+	.fitness-para {
+		margin-top: 140px;
+		margin-left: 256px;
+	}
+
+	.meditation-para {
+		margin-top: 140px;
+		margin-left: 486px;
+	}
+
+	.yoga-para {
+		margin-top: 330px;
+	}
+
+	.guitar-para {
+		margin-top: 330px;
+		margin-left: 256px;
+	}
+
+	.jiujitsu-para {
+		margin-top: 330px;
+		margin-left: 486px;
+	}
+
+	.chess-pic,
+	.fitness-pic,
+	.meditation-pic,
+	.yoga-pic,
+	.guitar-pic,
+	.jiujitsu-pic {
+		width: 205px;
+		height: 160px;
+		margin-left: 25px;
+		margin-top: 25px;
+		float: left;
+		border-color: #F3F3F3;
+		border: ridge 1px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#container {
+		width: 640px;
+	}
 	.about-me {
 		width: 600px;
 		height: 485px;
 		margin-left: 20px;
 		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+	.about-me-index {
+		width: 600px;
+		height: 485px;
+		margin-left: 20px;
+		margin-top: 60px;
+		margin-bottom: 20px;
+	}
+
+	.portfolio {
+		width: 600px;
+		height: 2425px;
+		margin-left: 20px;
+	}
+
+	.chess-pic,
+	.fitness-pic,
+	.meditation-pic,
+	.yoga-pic,
+	.guitar-pic,
+	.jiujitsu-pic {
+		width: 550px;
+		height: 360px;
+		margin-left: 25px;
+		margin-top: 25px;
+		float: left;
+		border-color: #F3F3F3;
+		border: ridge 1px;
+	}
+
+	.chess-para,
+	.fitness-para,
+	.meditation-para,
+	.yoga-para,
+	.guitar-para,
+	.jiujitsu-para {
+		background-color: #4aaaa5;
+		width: 548px;
+		height: 40px;
+		color: white;
+		text-align: center;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		padding-top: 13px;
+		z-index: 1px;
+		position: absolute;
+	
+	}
+
+	.chess-para {
+		margin-top: 320px;
+	}
+
+	.fitness-para {
+		margin-top: 710px;
+		margin-left: 26px;
+	}
+
+	.meditation-para {
+		margin-top: 1100px;
+		margin-left: 26px;
+	}
+
+	.yoga-para {
+		margin-top: 1490px;
+	}
+	
+	.guitar-para {
+		margin-top: 1875px;
+		margin-left: 26px;
+	}
+
+	.jiujitsu-para {
+		margin-top: 2260px;
+		margin-left: 26px;
 	}
 
 	.about-me-pic {
 		width: 275px;
 		height: 325px;
 	}
-
-	.connect {
+	.connect-index {
 		margin-left: 20px;
 		margin-top: 30px;
+		width: 600px;
+		height: 175px;
+		text-align: left;
+	}
+
+	.connect-port {
+		margin-left: 20px;
+		margin-top: 30px;
+		width: 600px;
+		height: 175px;
+		text-align: left;
+	}
+
+	.connect-contact{
+		margin-left: 20px;
+		margin-top: 30px;
+		margin-bottom: 20px;
 		width: 600px;
 		height: 175px;
 		text-align: left;
@@ -411,42 +721,33 @@ a {
 	h3 {
 		padding-left: 0px;
 		text-align: left;
-	}	
-
+	}
 	.github {
 		margin-left: 20px;
 	}
-
 	.links {
 		padding-top: 65px;
 		width: 100%;
 		margin-left: 80px;
 	}
-
 	.joe-h1 {
 		width: 100%;
 		margin-left: 0px;
 		border: none;
 		margin-top: -125px;
 	}
-
 	.header {
 		width: 100%;
 		margin-top: 50px;
-		
 	}
-
 	.about-link {
 		padding-right: 80px;
 	}
-
 	.portfolio-link {
 		padding-right: 80px;
 		padding-left: 80px;
 	}
-
 	.contact-link {
 		padding-left: 80px;
 	}
-
 }
